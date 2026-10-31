@@ -160,7 +160,7 @@ Then navigate to `http://localhost:8000` or `http://localhost:3000`.
 
 | Hackathon Requirement | Implementation in Ward Pulse | File Reference |
 |---|---|---|
-| **1. Regression Model** | Multi-variate OLS regression with population density, road length, streetlights, parks, and lakes. | [`src/model/train_predict.py`](src/model/train_predict.py) |
+| **1. Regression Model** | Multi-variate OLS regression with population density, road length, streetlights, parks, and lakes. | [`src/model/train_predict.py`](src/model/predict.py) |
 | **2. Target Wards Forecast** | Predicts the 40 zero-history target wards across 18 months for all 6 categories. | [`data/submission.csv`](data/submission.csv) |
 | **3. Interactive Map / Dashboard** | Dual-view Leaflet Geographic Map + Municipal Civic Grid with color-coded demand. | [`dashboard.html`](dashboard.html) |
 | **Bonus 1: Departmental Breakdown** | Disaggregates total volume into electrical, solid waste, roads, trees, animals, and other. | [`dashboard.html`](dashboard.html) |
