@@ -168,6 +168,9 @@ Then navigate to `http://localhost:8000` or `http://localhost:3000`.
 | **Bonus 3: Spatial Lag** | Inverse-distance spatial autocorrelation between ward centroids. | [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) |
 
 ---
+live links : https://ward-pulse-frontend.vercel.app
+
+
 
 ## 📜 License
 
