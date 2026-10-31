@@ -10,6 +10,9 @@ app = FastAPI(
     description="AI-powered Civic Complaint Demand Prediction",
     version="1.0"
 )
+@app.get("/api/health")
+def health():
+    return {"status": "ok"}
 
 BASE_DIR = Path(__file__).resolve().parent
 
